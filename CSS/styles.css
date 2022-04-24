@@ -4,18 +4,25 @@
       padding: 0;
     }
     div.container{
-      border: 5px solid #f50a0a;
+      border: 5px solid #29014e;
       width: 80%;
       margin: 0 auto;
+      background-color: rgb(244, 239, 250);
     }
     header{
-      background-color: burlywood;
+      background-color: rgb(111, 2, 161);
+      color:azure;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    footer{
+        background-color: rgb(180, 131, 221);
+        color: white;
     }
     .hero img{
       width: 100%;
     }
     div.left, div.middle, div.right{
-      border: 3px dotted green;
+      border: 3px dotted rgb(209, 149, 228);
       width: 30%;
     }
     aside img{
@@ -26,7 +33,7 @@
       justify-content: space-between;
     }
     nav{
-      background-color: dimgray;
+      background-color: rgb(129, 115, 155);
     }
     ul{
       text-align: center;
@@ -34,7 +41,7 @@
     li{
       display: inline-block;
       width: 150px;
-      border: 2px solid white;
+      border: 2px solid rgb(255, 255, 255);
       line-height: 3em;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-variant: small-caps;
@@ -42,6 +49,5 @@
     a{
       color: aliceblue;
       text-decoration: none;
-      border: 1px solid red;
       display: block;
     }
